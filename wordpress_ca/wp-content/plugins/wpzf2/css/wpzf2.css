@@ -1,0 +1,114 @@
+LABEL
+{
+	display: block;
+}
+LABEL SPAN
+{
+	width: 20%;
+	display: block;
+	height: 23px;
+	float: left;
+	margin: 1px 5px 0px 0px;
+	padding-top: 4px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	border-bottom: 1px dashed #CCCCCC;
+	color: #A1A0A0;
+}
+LABEL INPUT[type="text"]
+{
+	font-size: 15px;
+	margin: 0px 0px 10px;
+	font-weight: normal;
+	width: 70%;
+}
+SELECT
+{
+	font-size: 15px;
+	margin: 0px 0px 10px;
+	font-weight: normal;
+	width: 70%;
+}
+LABEL INPUT[type="password"]
+{
+	font-size: 15px;
+	margin: 0px 0px 10px;
+	font-weight: normal;
+	width: 70%;
+}
+LABEL INPUT[type="checkbox"]
+{
+	font-size: 15px;
+	margin: 0px 0px 10px;
+	font-weight: normal;
+	width: 70%;
+	float: left;
+}
+LABEL INPUT[type="radio"]
+{
+	font-size: 15px;
+	margin: 0px 0px 10px;
+	font-weight: normal;
+	width: 70%;
+}
+LABEL INPUT[type="email"]
+{
+	font-size: 15px;
+	margin: 0px 0px 10px;
+	font-weight: normal;
+	width: 70%;
+}
+LABEL TEXTAREA
+{
+	display: block;
+	width: 70%;
+	height: 100px;
+	margin: 0px 0px 10px;
+}
+INPUT[type="submit"]
+{
+	padding: 9px;
+	font-size: 20px;
+	margin: 0px 0px 10px 20%;
+}
+FIELDSET
+{
+	display: block;
+	clear: both;
+}
+FIELDSET LABEL
+{
+}
+.itemstoload
+{
+	background-color: #D86C6C;
+	width: 20%;
+	float: left;
+	padding: 5px;
+}
+.itemstoload LI
+{
+	background-color: #D8AE6C;
+	display: block;
+	border: 1px solid #000000;
+	padding: 5px;
+	width: 118px;
+}
+.itemsloaded
+{
+	background-color: #4565C9;
+	width: 37%;
+	float: left;
+	padding: 5px;
+}
+#ultoload
+{
+}
+#ultoload LI
+{
+	background-color: #D8AE6C;
+	display: block;
+	border: 1px solid #000000;
+	padding: 5px;
+	width: 343px;
+}
