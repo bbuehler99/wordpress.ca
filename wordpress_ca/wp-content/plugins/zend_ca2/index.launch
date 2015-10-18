@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.php.debug.core.launching.webPageLaunch">
+<booleanAttribute key="auto_generated_url" value="false"/>
+<stringAttribute key="base_url" value="http://cookingassist.local/cookingassist"/>
+<stringAttribute key="debugOutputEncoding" value="UTF-8"/>
+<stringAttribute key="debugPages" value="debugAllPages"/>
+<stringAttribute key="debugTransferEncoding" value="UTF-8"/>
+<stringAttribute key="file_name" value="/CookingAssist/public/index.php"/>
+<booleanAttribute key="firstLineBreakpoint" value="false"/>
+<stringAttribute key="name" value="cookingassist"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CookingAssist/public/index.php"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.php.debug.core.OpenInBrowser" value="true"/>
+<intAttribute key="org.eclipse.php.debug.core.PHP_Port" value="45566"/>
+<stringAttribute key="org.eclipse.php.debug.core.PHP_Project" value="/CookingAssist"/>
+<booleanAttribute key="org.eclipse.php.debug.core.RunWithDebugInfo" value="true"/>
+<stringAttribute key="org.eclipse.php.debug.coreconfiguration_delegate_class" value="org.eclipse.php.internal.debug.core.launching.XDebugWebLaunchConfigurationDelegate"/>
+<stringAttribute key="org.eclipse.php.debug.corephp_debugger_id" value="org.eclipse.php.debug.core.xdebugDebugger"/>
+<stringAttribute key="php_debug_type" value="php_web_page_debug"/>
+</launchConfiguration>

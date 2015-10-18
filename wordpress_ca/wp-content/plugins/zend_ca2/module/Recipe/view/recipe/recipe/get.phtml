@@ -1,0 +1,29 @@
+<?php
+
+$id = $this->id;
+$author = $this->author;
+$title = $this->title;
+
+$this->headTitle($title);
+?>
+ <h1><?php echo $this->escapeHtml($title); ?></h1>
+ <table class="table">
+ <tr>
+ <th>Title</th>
+ <th>Author</th>
+ <th>Content</th>
+ <th>&nbsp;</th>
+ </tr>
+  <tr>
+      <td><?php echo $this->escapeHtml($title);?></td>
+      <td><?php echo $this->escapeHtml($author);?></td>
+      <td><?php echo $this->escapeHtml($content);?></td>
+      <td>
+          <a href="<?php echo $this->url('recipe',
+              array('action'=>'edit', 'id' => $recipe->id));?>">Edit</a>
+          <a href="<?php echo $this->url('recipe',
+              array('action'=>'delete', 'id' => $recipe->id));?>">Delete</a>
+      </td>
+  </tr>
+  </table>
+  <a href="<?php echo $this->url('recipe'); ?>">Back to index</a>
